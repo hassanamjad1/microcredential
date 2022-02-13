@@ -1,0 +1,102 @@
+*{box-sizing: border-box;}
+body{
+  padding: 25px;
+  background: linear-gradient(90deg, rgba(186,104,200,1) 0%, rgba(151,51,238,1) 0%, rgba(186,104,200,1) 79%);
+}
+
+h1{
+
+}
+.mainForm{
+
+  color: white;
+  /* border: solid white; */
+  border-radius: 10px;
+  /* background-color: rgb(255,255,255,0.5); */
+
+  padding: -20px;
+}
+.mainForm fieldset{
+  height: 700px;
+  border-radius: 20px;
+  /* border-style:  double; */
+  border:  none;
+  background-color: rgb(255,255,255,0.5);
+  box-shadow: 20px 20px 0 white;
+}
+.mainForm legend{
+  /* background-image: #BA68C8; */
+  color : white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 2px 2px #FFAB40;
+  background-size: 200% auto;
+  text-transform: uppercase;
+  background-color: #BA68C8;
+  /* background-image: linear-gradient(to right, #BA68C8 0%, #9733EE  51%, #BA68C8  100%); */
+
+}
+.mainForm label{
+  display: block;
+  font-size: 1.5em;
+}
+.enterInfo{
+  margin-top: 65px;
+  padding: 25px;
+  /* border: solid purple; */
+  border-radius: 10px;
+  box-shadow:  10px 10px 0 #FFAB40;
+  background-color: rgb(106, 90, 205,0.5);
+  width : 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iField{
+  width : 200px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.submitBtn{
+  text-decoration: none;
+  display: block;
+  width : 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border: white;
+  padding: 12px 3px;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(-4px);
+  cursor: pointer;
+  box-shadow: 2px 7px #FFAB40 ;
+
+  transition: 0.4s;
+  background-size: 200% auto;
+  text-transform: uppercase;
+  text-align: center;
+  background-image: linear-gradient(to right, #BA68C8 0%, #9733EE  51%, #BA68C8  100%);
+}
+.submitBtn:active{
+  transform: translateY(-2px);
+  box-shadow: 2px 2px white;
+}
+
+#nftname{
+  font-size: 1.9em;
+  font-family: 'Rowdies', cursive;
+  color : purple;
+  font-weight: bold;
+}
+#nftPrice1{
+  /* float: right; */
+  color: rgb(255, 165, 0);
+  font-size : 1.5em;
+  padding: 10px;
+  background-color: purple;
+  border-radius: 10px;
+}

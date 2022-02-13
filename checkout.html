@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CART</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="https://cdn.cryptofonts.com/1.3.5/cryptofont.css">
+  </head>
+  <body>
+    <!-- <h1>Items in the bag</h1> -->
+    <form action="thankyou.html" method="post" class="mainForm">
+      <fieldset >
+        <legend>CHECKOUT</legend>
+        <h1>NFT's in your bag</h1>
+        <p><span id="nftname"></span> </p>
+        <p id="nftPrice1">TOTAL : <i class="cf cf-eth"></i> <span id="nftprice" ></span></p>
+
+        <hr>
+        <div class="enterInfo">
+          <label for="username">Enter Username: <input class="iField" type="text" name="username" placeholder="Type Username..." id="username"> </label>
+          <label for="email">Enter Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input class="iField" type="text" name="email" placeholder="Type email..." id="email"> </label>
+          <input class="submitBtn" type="submit" name="" value="SUBMIT">
+        </div>
+
+      </fieldset>
+    </form>
+
+    <script type="text/javascript">
+      let name = document.querySelector('#nftname');
+      let price = document.querySelector('#nftprice');
+      name.innerHTML = localStorage.getItem('nftN');
+      price.innerHTML = localStorage.getItem('nftP');
+    </script>
+  </body>
+</html>
